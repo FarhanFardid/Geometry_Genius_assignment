@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blogs</title>
+
+</head>
+<body class="bg-gray-300">
+      <div class="container mx-auto p-3 m-2">
+    <h2 class="text-4xl text-center border border-2 bg-neutral-600 text-white font-bold p-4 "> Blogs </h2>
+    <main>
+        <section>
+            <h2 class="text-2xl  border border-1  font-semibold p-2 bg-neutral-400 mt-2">1.What is DOM and what is the purpose of DOM?</h2> 
+            <p class="p-2 bg-slate-400 mb-2">In an application, our code needs to be able to interface with the browser and web page. Interface is not part of JS itself. It is a part of standardized API which is called the Document Object Model(DOM).The DOM is how JS code can interact with elements on an HTML web page.
+                <br>
+                 HTML is used to structure the web pages and javascript is used to add behavior to ur web pages. When an html file is loaded into the browser, the JS directly cannot understand the HTML document. So, a corresponding document is created(DOM). DOM is basically the representation of the same HTML document but in a different format with the use of objects. JavaScript interprets DOM easily. JS cannot understand the html tags(h1, p, div etc ) in HTML document but can understand object h1 in DOM. Now, javascript can access each of the objects (h1, p) by using different function.     </p>
+        </section>
+
+        <section class="">
+            <h2 class="text-2xl  border border-1  font-semibold p-2 bg-neutral-400">2.How will you select HTML elements using DOM? Name the DOM methods.</h2> 
+            <p class="p-2 bg-slate-400 mb-2">DOM is a platform neutral programming interface for accessing various components and elements of the web page that includes an HTML elements. We can select HTML elements using document object methods. There are 5 methods to select an HTML element using DOM. They are-<br>
+            1. getElementById()<br> 
+            2. getElementsByClassName()<br>
+            3. querySelector()<br>
+            4. getElementsByTagName()<br>
+            5. querySelectorAll()<br> </p>
+        </section>
+    
+        <section>
+            <h2 class="text-2xl  border border-1  font-semibold p-2 bg-neutral-400">3.What is event bubble?</h2> 
+            <p class="p-2 bg-slate-400 mb-2">Events are actions that happen when a user interacts with the web page like clicking an element, typing in a field or loading a page. There are various events which represents that some activity is performed by the user or by the browser. When Js code is included in HTML, JS reacts over these events and allow the execution.<br>
+                The event bubble is a concept that when an event occur to an element the event is also propagated  to the upper level elements that is the parents element and then goes on from parent to parent elements until it reaches the root element. 
+            </p>
+        </section>
+        <section>
+            <h2 class="text-2xl  border border-1  font-semibold p-2 bg-neutral-400">4.What is a callback function and why will you use it?</h2> 
+
+            <p class="p-2 bg-slate-400 mb-2">
+                A callback function is a function that is send as a parameter or arguments in another function and that will perform or complete  some sort of action.<br>
+                JavaScript executes code in a top-down, sequential fashion. Yet, there are some situations when code executes  both post-event and not sequentially. We refer to this as asynchronous programming.
+
+                 Callbacks ensure that a function will run immediately following the completion of a task rather than before it. It protects us from errors and issues while assisting us in writing asynchronous JavaScript code.  
+            </p>
+        </section>
+    </main>
+</div>
+    </body>
+    </html>
